@@ -10,7 +10,20 @@
 <body>
     <div class="container">
         <h1>Dropdown-Plugin</h1>
-        <div><button>Trigger</button></div>
+        <div class="dropdown dropdown-show ">
+        <button class="btn btn-info dropdown-toggle"  data-target="#" role="button" id="idLink" data-toggle="dropdown">Dropdown Button
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu " aria-labelledby="idLink">
+            <li class="dropdown-item"><a href="">Dropdownmenü 1</a></li>
+            <li class="dropdown-item"><a href="">Dropdownmenü 2</a></li>
+            <li class="dropdown-item"><a href="">Dropdownmenü 3</a></li>
+        </ul>
     </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Plugins: Cllabsibles</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Collapsibles-Plugin</h1>
+        <!--Ein Collapbsible besitzt einen Trigger-->
+        <p> <!--z.B einen Link-->
+
+            <!--A Was soll ihc, b. Wo soll ich-->
+            <a  href="#collapser1" class="btn" data-toggle="collapse" >
+                Triggert Collapsible 1
+            </a>
+            <button class="btn" data-toggle="collapse" data-target="#collapser2" >Triggert Collapsible 2</button>
+        </p>
+        <!--Irgendein Inhalt wird als collapsbar deklariert. Braucht(!!) eine Id!!!!-->
+        <p Id="collapser1" class="collapse">Collapser 1 Dieser Inhalt wird collapbsed.Und kann wieder eingeblendet werden.
+            So sieht es aus jhauitahjaeioujatklak dkssajtoajweoi jajklawejfiohaiodm, dkd
+        <p Id="collapser2" class="collapse">Collapser 2 Dieser Inhalt wird collapbsed.Und kann wieder eingeblendet werden.
+                So sieht es aus jhauitahjaeioujatklak dkssajtoajweoi jajklawejfiohaiodm, dkd</p>
+        </p>Eintrag nach Collapser</p>
+       
+
+        
+    
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
+</body>
+</html>
